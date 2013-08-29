@@ -1,6 +1,6 @@
 //
-//  ResistenceTests.m
-//  ResistenceTests
+//  ResistanceTests.m
+//  ResistanceTests
 //
 //  Created by 23 on 8/25/13.
 //  Copyright (c) 2013 Aged and Distilled. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ResistenceTests : XCTestCase
+@interface ResistanceTests : XCTestCase
 
 @end
 
-@implementation ResistenceTests
+@implementation ResistanceTests
 
 - (void)setUp
 {

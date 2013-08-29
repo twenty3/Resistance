@@ -19,7 +19,7 @@
 		01FA148317CAA44F006668A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA146217CAA44E006668A4 /* Foundation.framework */; };
 		01FA148417CAA44F006668A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA146617CAA44E006668A4 /* UIKit.framework */; };
 		01FA148C17CAA44F006668A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01FA148A17CAA44F006668A4 /* InfoPlist.strings */; };
-		01FA148E17CAA44F006668A4 /* ResistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA148D17CAA44F006668A4 /* ResistenceTests.m */; };
+		01FA148E17CAA44F006668A4 /* ResistanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA148D17CAA44F006668A4 /* ResistanceTests.m */; };
 		01FA149917CAAC04006668A4 /* ScrollingSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */; };
 		01FA149A17CAAC04006668A4 /* ScrollingSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */; };
 /* End PBXBuildFile section */
@@ -30,30 +30,30 @@
 			containerPortal = 01FA145717CAA44E006668A4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01FA145E17CAA44E006668A4;
-			remoteInfo = Resistence;
+			remoteInfo = Resistance;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FA145F17CAA44E006668A4 /* Resistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA145F17CAA44E006668A4 /* Resistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FA146217CAA44E006668A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01FA146417CAA44E006668A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		01FA146617CAA44E006668A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		01FA146A17CAA44E006668A4 /* Resistence-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resistence-Info.plist"; sourceTree = "<group>"; };
+		01FA146A17CAA44E006668A4 /* Resistance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resistance-Info.plist"; sourceTree = "<group>"; };
 		01FA146C17CAA44E006668A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01FA146E17CAA44E006668A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		01FA147017CAA44E006668A4 /* Resistence-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resistence-Prefix.pch"; sourceTree = "<group>"; };
+		01FA147017CAA44E006668A4 /* Resistance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resistance-Prefix.pch"; sourceTree = "<group>"; };
 		01FA147117CAA44E006668A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01FA147217CAA44E006668A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01FA147517CAA44E006668A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01FA147A17CAA44E006668A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		01FA148017CAA44F006668A4 /* ResistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA148017CAA44F006668A4 /* ResistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FA148117CAA44F006668A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		01FA148917CAA44F006668A4 /* ResistenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistenceTests-Info.plist"; sourceTree = "<group>"; };
+		01FA148917CAA44F006668A4 /* ResistanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistanceTests-Info.plist"; sourceTree = "<group>"; };
 		01FA148B17CAA44F006668A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		01FA148D17CAA44F006668A4 /* ResistenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistenceTests.m; sourceTree = "<group>"; };
-		01FA149717CAAC04006668A4 /* ScrollingSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollingSliderCell.h; path = ../ScrollingSliderCell.h; sourceTree = "<group>"; };
-		01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollingSliderCell.m; path = ../ScrollingSliderCell.m; sourceTree = "<group>"; };
+		01FA148D17CAA44F006668A4 /* ResistanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistanceTests.m; sourceTree = "<group>"; };
+		01FA149717CAAC04006668A4 /* ScrollingSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingSliderCell.h; sourceTree = "<group>"; };
+		01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingSliderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 		01FA145617CAA44E006668A4 = {
 			isa = PBXGroup;
 			children = (
-				01FA146817CAA44E006668A4 /* Resistence */,
-				01FA148717CAA44F006668A4 /* ResistenceTests */,
+				01FA146817CAA44E006668A4 /* Resistance */,
+				01FA148717CAA44F006668A4 /* ResistanceTests */,
 				01FA146117CAA44E006668A4 /* Frameworks */,
 				01FA146017CAA44E006668A4 /* Products */,
 			);
@@ -93,8 +93,8 @@
 		01FA146017CAA44E006668A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01FA145F17CAA44E006668A4 /* Resistence.app */,
-				01FA148017CAA44F006668A4 /* ResistenceTests.xctest */,
+				01FA145F17CAA44E006668A4 /* Resistance.app */,
+				01FA148017CAA44F006668A4 /* ResistanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		01FA146817CAA44E006668A4 /* Resistence */ = {
+		01FA146817CAA44E006668A4 /* Resistance */ = {
 			isa = PBXGroup;
 			children = (
 				01FA147117CAA44E006668A4 /* AppDelegate.h */,
@@ -121,33 +121,33 @@
 				01FA147A17CAA44E006668A4 /* Images.xcassets */,
 				01FA146917CAA44E006668A4 /* Supporting Files */,
 			);
-			path = Resistence;
+			path = Resistance;
 			sourceTree = "<group>";
 		};
 		01FA146917CAA44E006668A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				01FA146A17CAA44E006668A4 /* Resistence-Info.plist */,
+				01FA146A17CAA44E006668A4 /* Resistance-Info.plist */,
 				01FA146B17CAA44E006668A4 /* InfoPlist.strings */,
 				01FA146E17CAA44E006668A4 /* main.m */,
-				01FA147017CAA44E006668A4 /* Resistence-Prefix.pch */,
+				01FA147017CAA44E006668A4 /* Resistance-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01FA148717CAA44F006668A4 /* ResistenceTests */ = {
+		01FA148717CAA44F006668A4 /* ResistanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				01FA148D17CAA44F006668A4 /* ResistenceTests.m */,
+				01FA148D17CAA44F006668A4 /* ResistanceTests.m */,
 				01FA148817CAA44F006668A4 /* Supporting Files */,
 			);
-			path = ResistenceTests;
+			path = ResistanceTests;
 			sourceTree = "<group>";
 		};
 		01FA148817CAA44F006668A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				01FA148917CAA44F006668A4 /* ResistenceTests-Info.plist */,
+				01FA148917CAA44F006668A4 /* ResistanceTests-Info.plist */,
 				01FA148A17CAA44F006668A4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -156,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01FA145E17CAA44E006668A4 /* Resistence */ = {
+		01FA145E17CAA44E006668A4 /* Resistance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01FA149117CAA44F006668A4 /* Build configuration list for PBXNativeTarget "Resistence" */;
+			buildConfigurationList = 01FA149117CAA44F006668A4 /* Build configuration list for PBXNativeTarget "Resistance" */;
 			buildPhases = (
 				01FA145B17CAA44E006668A4 /* Sources */,
 				01FA145C17CAA44E006668A4 /* Frameworks */,
@@ -168,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = Resistence;
-			productName = Resistence;
-			productReference = 01FA145F17CAA44E006668A4 /* Resistence.app */;
+			name = Resistance;
+			productName = resistance;
+			productReference = 01FA145F17CAA44E006668A4 /* Resistance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01FA147F17CAA44F006668A4 /* ResistenceTests */ = {
+		01FA147F17CAA44F006668A4 /* ResistanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01FA149417CAA44F006668A4 /* Build configuration list for PBXNativeTarget "ResistenceTests" */;
+			buildConfigurationList = 01FA149417CAA44F006668A4 /* Build configuration list for PBXNativeTarget "ResistanceTests" */;
 			buildPhases = (
 				01FA147C17CAA44F006668A4 /* Sources */,
 				01FA147D17CAA44F006668A4 /* Frameworks */,
@@ -186,9 +186,9 @@
 			dependencies = (
 				01FA148617CAA44F006668A4 /* PBXTargetDependency */,
 			);
-			name = ResistenceTests;
-			productName = ResistenceTests;
-			productReference = 01FA148017CAA44F006668A4 /* ResistenceTests.xctest */;
+			name = ResistanceTests;
+			productName = resistanceTests;
+			productReference = 01FA148017CAA44F006668A4 /* ResistanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,12 +200,15 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Aged and Distilled";
 				TargetAttributes = {
+					01FA145E17CAA44E006668A4 = {
+						DevelopmentTeam = 584WJM74N8;
+					};
 					01FA147F17CAA44F006668A4 = {
 						TestTargetID = 01FA145E17CAA44E006668A4;
 					};
 				};
 			};
-			buildConfigurationList = 01FA145A17CAA44E006668A4 /* Build configuration list for PBXProject "Resistence" */;
+			buildConfigurationList = 01FA145A17CAA44E006668A4 /* Build configuration list for PBXProject "Resistance" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01FA145E17CAA44E006668A4 /* Resistence */,
-				01FA147F17CAA44F006668A4 /* ResistenceTests */,
+				01FA145E17CAA44E006668A4 /* Resistance */,
+				01FA147F17CAA44F006668A4 /* ResistanceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01FA149A17CAAC04006668A4 /* ScrollingSliderCell.m in Sources */,
-				01FA148E17CAA44F006668A4 /* ResistenceTests.m in Sources */,
+				01FA148E17CAA44F006668A4 /* ResistanceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +273,7 @@
 /* Begin PBXTargetDependency section */
 		01FA148617CAA44F006668A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01FA145E17CAA44E006668A4 /* Resistence */;
+			target = 01FA145E17CAA44E006668A4 /* Resistance */;
 			targetProxy = 01FA148517CAA44F006668A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -376,9 +379,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Resistence/Resistence-Prefix.pch";
-				INFOPLIST_FILE = "Resistence/Resistence-Info.plist";
+				GCC_PREFIX_HEADER = "Resistance/Resistance-Prefix.pch";
+				INFOPLIST_FILE = "Resistance/Resistance-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +393,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Resistence/Resistence-Prefix.pch";
-				INFOPLIST_FILE = "Resistence/Resistence-Info.plist";
+				GCC_PREFIX_HEADER = "Resistance/Resistance-Prefix.pch";
+				INFOPLIST_FILE = "Resistance/Resistance-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,19 +405,19 @@
 		01FA149517CAA44F006668A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resistence.app/Resistence";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resistance.app/Resistance";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Resistence/Resistence-Prefix.pch";
+				GCC_PREFIX_HEADER = "Resistance/Resistance-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ResistenceTests/ResistenceTests-Info.plist";
+				INFOPLIST_FILE = "ResistanceTests/ResistanceTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -422,15 +427,15 @@
 		01FA149617CAA44F006668A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resistence.app/Resistence";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resistance.app/Resistance";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Resistence/Resistence-Prefix.pch";
-				INFOPLIST_FILE = "ResistenceTests/ResistenceTests-Info.plist";
+				GCC_PREFIX_HEADER = "Resistance/Resistance-Prefix.pch";
+				INFOPLIST_FILE = "ResistanceTests/ResistanceTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -440,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01FA145A17CAA44E006668A4 /* Build configuration list for PBXProject "Resistence" */ = {
+		01FA145A17CAA44E006668A4 /* Build configuration list for PBXProject "Resistance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01FA148F17CAA44F006668A4 /* Debug */,
@@ -449,21 +454,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01FA149117CAA44F006668A4 /* Build configuration list for PBXNativeTarget "Resistence" */ = {
+		01FA149117CAA44F006668A4 /* Build configuration list for PBXNativeTarget "Resistance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01FA149217CAA44F006668A4 /* Debug */,
 				01FA149317CAA44F006668A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		01FA149417CAA44F006668A4 /* Build configuration list for PBXNativeTarget "ResistenceTests" */ = {
+		01FA149417CAA44F006668A4 /* Build configuration list for PBXNativeTarget "ResistanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01FA149517CAA44F006668A4 /* Debug */,
 				01FA149617CAA44F006668A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
