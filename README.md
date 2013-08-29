@@ -10,5 +10,5 @@ Sample project that implements a table view cell with a sliding content view sim
 
 ## Enhancements
 
-- Really slow swipes behave better in Mail. Something like looking at the velocity and target when scrolling ends would probably be enough to make that feel better.
+- Really slow swipes behave better in Mail. Current snapping just doesn't quite feel right. 
 
