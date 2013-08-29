@@ -30,6 +30,11 @@
 @property (weak, nonatomic) IBOutlet UIButton *button1;
 @property (weak, nonatomic) IBOutlet UIButton *button2;
 
+@property (readonly, assign, nonatomic) CGFloat openXOffset;
+@property (readonly, assign, nonatomic) CGFloat closedXOffset;
+
+@property (assign, nonatomic) BOOL snapping;
+
 @end
 
 
@@ -60,7 +65,6 @@
 
 - (void) commonInit
 {
-    
 }
 
 #pragma mark - UIView
@@ -69,11 +73,24 @@
 {
     [super layoutSubviews];
 
+    // add some extra content so we can bounce and scroll the content view out of frame
     CGSize contentSize = self.frame.size;
-    contentSize.width += 160.0;
-        // 160 is the width of our buttons, but you'd want to commute
-        // this rather than use a magic #
+    contentSize.width += (CGRectGetMaxX(self.button1.frame) - CGRectGetMinX(self.button2.frame));
     self.contentScrollView.contentSize = contentSize;
+}
+
+#pragma mark - Properties
+
+- (CGFloat)openXOffset
+{
+    // fully open offest reveals button 1 and 2
+    return self.frame.size.width - CGRectGetMinX(self.button2.frame);
+}
+
+- (CGFloat)closedXOffset
+{
+    //fully closed is no offset
+    return 0.0;
 }
 
 #pragma mark - UIScrollViewDelegate
@@ -100,20 +117,21 @@
     // snap open or shut depending on where scrolling finished
     // Using button 1 / button 2 boundary as the deciding line between open or shut
     
-    CGFloat xClosed = 0.0;
-    CGFloat xOpen = self.frame.size.width - CGRectGetMinX(self.button2.frame);
     CGFloat xBoundary = self.frame.size.width - CGRectGetMinX(self.button1.frame);
     
     if ( contentOffset.x >= xBoundary )
     {
-        contentOffset.x =xOpen;
+        //NSLog(@"FORCING OPEN");
+        contentOffset.x = self.openXOffset;
     }
     else
     {
-        contentOffset.x = xClosed;
+        //NSLog(@"FORCING CLOSED");
+        contentOffset.x = self.closedXOffset;
     }
     
-    [scrollView setContentOffset:contentOffset animated:YES];
+    if ( !self.snapping ) [scrollView setContentOffset:contentOffset animated:YES];
+    self.snapping = NO;
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
@@ -123,7 +141,29 @@
 
 - (void) scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
 {
-    //NSLog(@"Will end dragging");
+    self.snapping = NO;
+    
+    if ( velocity.x < 0.0 )
+    {
+        if ( velocity.x > -0.5 )
+        {
+            NSLog(@"SNAPPING SHUT!");
+            targetContentOffset->x = scrollView.contentOffset.x;
+            [scrollView setContentOffset:(CGPoint){self.closedXOffset, 0.0} animated:YES];
+            self.snapping = YES;
+        }
+    }
+    else if ( velocity.x > 0.0 )
+    {
+        if ( velocity.x < 0.5 )
+        {
+            NSLog(@"SNAPPING OPEN!");
+            targetContentOffset->x = scrollView.contentOffset.x;
+            [scrollView setContentOffset:(CGPoint){self.openXOffset, 0.0} animated:YES];
+            self.snapping = YES;
+        }
+    }
+    
 }
 
 @end
