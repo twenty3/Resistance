@@ -14,13 +14,14 @@
 		01FA146F17CAA44E006668A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA146E17CAA44E006668A4 /* main.m */; };
 		01FA147317CAA44E006668A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA147217CAA44E006668A4 /* AppDelegate.m */; };
 		01FA147617CAA44E006668A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FA147417CAA44E006668A4 /* Main.storyboard */; };
-		01FA147917CAA44E006668A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA147817CAA44E006668A4 /* ViewController.m */; };
 		01FA147B17CAA44E006668A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FA147A17CAA44E006668A4 /* Images.xcassets */; };
 		01FA148217CAA44F006668A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA148117CAA44F006668A4 /* XCTest.framework */; };
 		01FA148317CAA44F006668A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA146217CAA44E006668A4 /* Foundation.framework */; };
 		01FA148417CAA44F006668A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA146617CAA44E006668A4 /* UIKit.framework */; };
 		01FA148C17CAA44F006668A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01FA148A17CAA44F006668A4 /* InfoPlist.strings */; };
 		01FA148E17CAA44F006668A4 /* ResistenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA148D17CAA44F006668A4 /* ResistenceTests.m */; };
+		01FA149917CAAC04006668A4 /* ScrollingSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */; };
+		01FA149A17CAAC04006668A4 /* ScrollingSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,14 @@
 		01FA147117CAA44E006668A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01FA147217CAA44E006668A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01FA147517CAA44E006668A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01FA147717CAA44E006668A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		01FA147817CAA44E006668A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01FA147A17CAA44E006668A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01FA148017CAA44F006668A4 /* ResistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FA148117CAA44F006668A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		01FA148917CAA44F006668A4 /* ResistenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistenceTests-Info.plist"; sourceTree = "<group>"; };
 		01FA148B17CAA44F006668A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01FA148D17CAA44F006668A4 /* ResistenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistenceTests.m; sourceTree = "<group>"; };
+		01FA149717CAAC04006668A4 /* ScrollingSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollingSliderCell.h; path = ../ScrollingSliderCell.h; sourceTree = "<group>"; };
+		01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollingSliderCell.m; path = ../ScrollingSliderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +115,9 @@
 			children = (
 				01FA147117CAA44E006668A4 /* AppDelegate.h */,
 				01FA147217CAA44E006668A4 /* AppDelegate.m */,
+				01FA149717CAAC04006668A4 /* ScrollingSliderCell.h */,
+				01FA149817CAAC04006668A4 /* ScrollingSliderCell.m */,
 				01FA147417CAA44E006668A4 /* Main.storyboard */,
-				01FA147717CAA44E006668A4 /* ViewController.h */,
-				01FA147817CAA44E006668A4 /* ViewController.m */,
 				01FA147A17CAA44E006668A4 /* Images.xcassets */,
 				01FA146917CAA44E006668A4 /* Supporting Files */,
 			);
@@ -249,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01FA147917CAA44E006668A4 /* ViewController.m in Sources */,
+				01FA149917CAAC04006668A4 /* ScrollingSliderCell.m in Sources */,
 				01FA147317CAA44E006668A4 /* AppDelegate.m in Sources */,
 				01FA146F17CAA44E006668A4 /* main.m in Sources */,
 			);
@@ -259,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FA149A17CAAC04006668A4 /* ScrollingSliderCell.m in Sources */,
 				01FA148E17CAA44F006668A4 /* ResistenceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

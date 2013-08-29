@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScrollingSliderCell.h
 //  Resistence
 //
 //  Created by 23 on 8/25/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ScrollingSliderCell : UITableViewCell
 
 @end
