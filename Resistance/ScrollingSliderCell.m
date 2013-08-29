@@ -72,7 +72,7 @@
     CGSize contentSize = self.frame.size;
     contentSize.width += 160.0;
         // 160 is the width of our buttons, but you'd want to commute
-        // this rathe than use a magic #
+        // this rather than use a magic #
     self.contentScrollView.contentSize = contentSize;
 }
 
